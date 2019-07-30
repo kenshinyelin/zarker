@@ -1,4 +1,3 @@
-
 #!/bin/bash
 wget https://npm.taobao.org/mirrors/node/v10.16.0/node-v10.16.0-linux-x64.tar.xz;tar -Jxf node-v10.16.0-linux-x64.tar.xz;
 tar -Jxf node-v10.16.0-linux-x64.tar.xz;
