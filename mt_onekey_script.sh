@@ -12,4 +12,4 @@ git clone https://gitee.com/Eric_HSBC/mt_update_bynodejs.git;
 cp /root/mt_update_bynodejs/expect.sh  /root/expect.sh && chmod +x expect.sh
 cd mt_update_bynodejs && npm i;
 pm2 start bin/www -- name mt;
-wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubiBackup/doubi/master/mtproxy_go.sh && chmod +x mtproxy_go.sh;
+wget -N --no-check-certificate https://raw.githubusercontent.com/ToyoDAdoubiBackup/doubi/master/mtproxy_go.sh && chmod +x mtproxy_go.sh && bash mtproxy_go.sh
