@@ -7,7 +7,7 @@ npm i pm2 -g;
 ln -s /root/node-v10.16.0-linux-x64/bin/pm2 /usr/local/bin/pm2;
 sudo apt-get update;
 sudo apt-get install expect -y;
-apt install git;
+apt install git -y;
 git clone https://gitee.com/Eric_HSBC/mt_update_bynodejs.git;
 cp /root/mt_update_bynodejs/expect.sh  /root/expect.sh && chmod +x expect.sh
 cd mt_update_bynodejs && npm i;
